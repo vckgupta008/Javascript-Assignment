@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ploting Data</title>
+    <meta charset="utf-8">
+    <script src="d3/d3.min.js"></script>
+   
+     <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
+     <script type="text/javascript" src="js/script.js"></script>
+     <style type="text/css">
+         body{
+            background-color: white;
+         }
+     </style>
+</head>
+
+<body>
+    <div class="Tab1">
+        <div class="tabbable">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">Multiline Series</a></li>
+                <li><a href="#tab2" data-toggle="tab">Bar Chart</a></li>
+                <li><a href="#tab3" data-toggle="tab">Pie chart</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1" >
+                </div>
+                <div class="tab-pane" id="tab2">
+                
+                     <svg width="960" height="500"></svg>
+                </div>
+                 <div class="tab-pane" id="tab3">
+                 
+                    <!-- <canvas width="960" height="500"></canvas> -->
+                </div>
+            </div><!--end of tan content-->
+        </div><!--end of tabbable-->
+    </div><!--end of tab1-->        
+    
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <!-- <script>
+    window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+    </script> -->
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+ <!--    <script src="includes/js/script.js"></script> -->
+</body>
+
+</html>
